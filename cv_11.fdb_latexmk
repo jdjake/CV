@@ -1,0 +1,20 @@
+# Fdb version 3
+["pdflatex"] 1473622189 "cv_11.tex" "cv_11.pdf" "cv_11" 1473622190
+  "/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1471317725 8253 473e0e41f9adadb1977e8631b8f72ea6 ""
+  "/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1471317725 18425 5b3c0c59d76fac78978b5558e83c1f36 ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1471317724 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1471317724 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty" 1471317724 1699 41a8dcd7126940efa254804d5311bbda ""
+  "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1471317724 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def" 1471317724 57848 020e44545ff7e21278b080e3175d3354 ""
+  "/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex" 1471317724 689679 e146572371041b15f7f0cb49a6cbc969 ""
+  "/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty" 1471317724 10238 47b1600390b6a09ec63fa44b042e9805 ""
+  "/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def" 1471317724 9817 2a0e97b2721dcf8bb2bb608e1d600374 ""
+  "/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1471317724 61846 f081f1a4b6b2ee9ccff101b890bd41dc ""
+  "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1471317725 55589 34128738f682d033422ca125f82e5d62 ""
+  "cv_11.aux" 1473622189 8 a94a2480d3289e625eea47cd1b285758 ""
+  "cv_11.tex" 1473622188 11542 b6d7aa635b1620ce24d6cf2198aaad21 ""
+  "friggeri-cv.cls" 1472992874 7268 be141ad06185e5b7fdfee037b8097199 ""
+  (generated)
+  "cv_11.pdf"
+  "cv_11.log"
