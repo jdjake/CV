@@ -144,6 +144,11 @@
 }{%
   \end{tabular*}
 }
+\newenvironment{entrylisted}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{11.8cm}{%
@@ -151,6 +156,11 @@
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
+  }\\}
+\newcommand{\entries}[2]{%
+    \parbox[t]{75cm}{
+    \textbf{#1}
+    #2\vspace{\parsep}%
   }\\}
 
 
