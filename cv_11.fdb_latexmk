@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1473626945 "cv_11.tex" "cv_11.pdf" "cv_11" 1473626945
+["pdflatex"] 1479592189 "cv_11.tex" "cv_11.pdf" "cv_11" 1479592189
   "/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1471317725 8253 473e0e41f9adadb1977e8631b8f72ea6 ""
   "/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1471317725 18425 5b3c0c59d76fac78978b5558e83c1f36 ""
   "/usr/share/texmf-dist/tex/latex/base/article.cls" 1471317724 19821 310da678527a7dfe2a02c88af38079b7 ""
@@ -12,9 +12,9 @@
   "/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def" 1471317724 9817 2a0e97b2721dcf8bb2bb608e1d600374 ""
   "/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1471317724 61846 f081f1a4b6b2ee9ccff101b890bd41dc ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1471317725 55589 34128738f682d033422ca125f82e5d62 ""
-  "cv_11.aux" 1473626855 672 732307e97781cc9875387230c0ca73c3 ""
-  "cv_11.tex" 1473626944 13224 b8f277219ca99f1028ad94023d4acdc8 ""
-  "friggeri-cv.cls" 1473625619 7366 226275b407008faf768337ffc48dc565 ""
+  "cv_11.aux" 1479592171 672 732307e97781cc9875387230c0ca73c3 ""
+  "cv_11.tex" 1479592189 14219 6e1d00bd061e807e9720bebb26b005eb ""
+  "friggeri-cv.cls" 1473630297 7475 291ba7ac252b6a70a8900c8873bc1020 ""
   (generated)
   "cv_11.log"
   "cv_11.pdf"
