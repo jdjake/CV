@@ -50,12 +50,19 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\newfontfamily\bodyfont[]{Helvetica Neue}
-\newfontfamily\thinfont[]{HelveticaNeue-UltraLight} % Ultralight
-\newfontfamily\headingfont[]{HelveticaNeue MediumCond} % Condensed Bold
+\newfontfamily\bodyfont[]{Cantarell}
+\newfontfamily\thinfont[]{Cantarell} % Ultralight
+\newfontfamily\headingfont[]{Cantarell} % Condensed Bold
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue:style=Light} % Light
+\setmainfont[Mapping=tex-text, Color=textcolor]{Cantarell} % Light
+
+% ENABLE WHEN FONT FAMILIES ARE INSTALLED
+%\newfontfamily\bodyfont[]{Helvetica Neue}
+%\newfontfamily\thinfont[]{HelveticaNeue-UltraLight} % Ultralight
+%\newfontfamily\headingfont[]{HelveticaNeue MediumCond} % Condensed Bold
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue:style=Light} % Light
 
 %\setmathfont{XITS Math}
 
