@@ -19,9 +19,22 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+% Add 'print' as an option into the square bracket to remove colors from this template for printing
+\documentclass{friggeri-cv}
 
-% \addbibresource{bibliography.bib} % Specify the bibliography file to include 
+% Specify the bibliography file to include 
+% \addbibresource{bibliography.bib}
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
 
 \begin{document}
 
@@ -35,32 +48,25 @@
 \section{Research Interests}
 Harmonic Analysis, Geometric Measure Theory, Additive Combinatorics.
 \section{Contact Information}
-%5692 King Street,
-%Vancouver, BC, Canada
-%V6T1K8
-%~
-%+1 (780) 862-7414
-%~
-Additional Contact Info Redacted For Web Version
 \href{mailto:denson@math.ubc.ca}{denson@math.ubc.ca}
-\section{Websites}
 \href{https://github.com/jdjake}{{\bf Github Profile}: jdjake}
-~
-\href{http://stackoverflow.com/users/2601483/jacob-denson}{{\bf Stack Overflow Profile:} jacob-denson}
-~
+\href{http://stackoverflow.com/users/2601483/jacob-denson}{{\bf Stack Overflow:} jacob-denson}
 \href{https://jdjake.github.io/}{https://jdjake.github.io/}
 \section{Languages}
-English, Elementary German, Very Rusty Elementary Chinese
-Python, Perl, C++, C, C\#, Matlab, HTML, Javascript, Latex (This resume is proof!)
+English, Elementary German, Very Rusty Elementary Chinese, Python, Perl, C++, C, C\#, Matlab, HTML, Javascript, Latex (This resume is proof!)
+\section{Awards}
+2018 - NSERC CGSM Scholarship.
 \end{aside}
 
 %----------------------------------------------------------------------------------------
 %   KEY SKILLS
 %----------------------------------------------------------------------------------------
 
+%\begin{changemargin}{+3.5cm}{0cm}
+
 \section{Summary}
 
-I am a masters student at the University of British Columbia, applying my strong and diverse foundation in mathematical knowledge to do research in the harmonic analysis research group, studying continuous variants of discrete configuration avoidance problems emerging from additive combinatorics. My previous work in theoretical computing science has given me a strong knowledge of the algorithmic viewpoint of problems, which gives me a fresh perspective on classical ideas in the field. I am currently working on the problem of finding high dimensional subsets of intervals avoiding solutions to polynomial equations.
+I am a masters student at the University of British Columbia, applying my strong and diverse foundation in mathematical knowledge to do research in the harmonic analysis research group, studying continuous variants of discrete configuration avoidance problems emerging from additive combinatorics. My previous work in theoretical computing science has given me a strong knowledge of the algorithmic viewpoint of problems, which gives me a fresh perspective on classical ideas in the field. I am currently working on the problem of finding high dimensional fractals avoiding patterns.
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -70,7 +76,54 @@ I am a masters student at the University of British Columbia, applying my strong
 \section{Talks\footnote{Notes for my talks can be found on my website: \href{https://jdjake.github.io/}{https://jdjake.github.io/}}} % \& Publications}
 
 \begin{entrylist}
-  
+
+%------------------------------------------------
+
+\entry
+{2018}
+{CMS Winter Meeting \& MAAM 2018}
+{CMS \& University of Virginia}
+{\emph{Fractals Avoiding Fractal Sets}\\
+    A twenty minute talk discussing my solution to a research problem constructing fractal sets of high Hausdorff dimension avoiding patterns. I emphasized the idea behind the switch from a continuous problem to a discrete scale argument, as well as discussing the strategy of the hypergraph avoidance method at the single scale.
+}
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Differential Topology Class}
+{University of British Columbia}
+{\emph{Hodge Theory: Harmonic Analysis in Topology}\\
+    An hour talk discussing how the eigenfunctions of the Laplacian on a Riemannian manifold reflect the topology of the underlying manifold. I introduced the inner product of differential forms, the Hodge star, and the Laplace-Beltrami operator, and how these eigenfunctions can be used to give almost trivial proofs of major results about De Rham cohomology.
+}
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Modular Forms Class}
+{University of British Columbia}
+{\emph{Theta Functions}\\
+    An hour long talk discussing how the theory of theta functions fits in with the general theory of modular forms once we introduce half weight forms and a modular symmetry with respect to a Dirichlet character. Using this theory, we prove Fermat's theorem on the sums of two squares, and Jacobi's theorem on the sums of four squares.
+}
+
+%------------------------------------------------
+
+\entry
+{2018}
+{Topics in Harmonic Analysis Class}
+{University of British Columbia}
+{\emph{Radon Transform and Exceptional Projections}\\
+    An hour talk connecting the Marstrand projection problem in geometric measure theory to harmonic analysis using the Radon transform. Bounding variants of the Radon transform gives results about the dimension of the set of projections where Marstrand's theorem fails. Based on Daniel M. Oberlin's paper ``Restricted Radon Transforms and Projections of Planar Sets''.
+} 
+
+\end{entrylist}
+%\end{changemargin}
+
+\newpage
+
+\begin{entrylist}
+
 %------------------------------------------------
 
 \entry
@@ -78,9 +131,7 @@ I am a masters student at the University of British Columbia, applying my strong
 {Graduate Seminar}
 {University of British Columbia}
 {\emph{Proofs in Three Bits or Less}\\
-An hour talk introducing nonspecialists to the theory of probabilistically checkable proofs, and PCP theory. By changing the language by which we discuss the theory from accessing random bits from a string, to `playing a game of 20 questions', I introduced a novel way to discuss the theory which avoids the technicalities of the field, making the talk accessible to students without any background in theoretical computing science.}
-
-%------------------------------------------------
+An hour talk introducing nonspecialists to the theory of probabilistically checkable proofs, and PCP theory. By changing the language by which we discuss the theory from accessing random bits from a string, to `playing a game of 20 questions', I introduced a novel way to discuss the theory which avoids the technicalities of the field, making the talk accessible to students without any background in theoretical computing science. The ideas behind this talk were the basis for my published article in the 2018 edition of the Notes from the Margin expository journal.}
 
 %------------------------------------------------
 
@@ -97,6 +148,10 @@ A 20 minute talk emphasizing the naturality of the generalization of the Fourier
 {University of Alberta, Canada}
 {\emph{A Brief Respite In Abelian Analysis}\\
 A 20 minute talk introducing the abstract Fourier transform on abelian locally compact groups, and discussing the generalization of the Poincare summation formula to this domain, which hints at the depth of Pontrayagin duality.}
+
+\end{entrylist}
+
+\begin{entrylist}
 
 %------------------------------------------------
 
@@ -116,11 +171,7 @@ A talk introducing Ergodic theory to undergraduate students, and emphasizing its
 {\emph{Vector Fields, Hex, and Jordan Curves}\\
 A 20 minute talk on the Brouwer fixed-point theorem, emphasizing the intuitive vector field interpretation of the theorem, and discussing how the fixed-point theorem relates to the combinatorial game of hex, reflecting the nice interweaving of discrete and point-set methods in algebraic topology.}
 
-\end{entrylist}
-
 %\newgeometry{margin=1in,top=1cm,right=1cm,bottom=1cm}
-
-\begin{entrylist}
 
 %------------------------------------------------
     
@@ -162,7 +213,7 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 
 \section{Experience}
 
-\subsection{Selected Mathematics Courses (3.96 Math GPA, 3.8 General GPA)\footnote{An asterix indicates a course I plan to take in the winter semester}}
+\subsection{Selected Mathematical Knowledge (Including Textbooks Read)}
 
 \begin{entrylist}
 
@@ -173,13 +224,13 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Banach Spaces (A)\\
-    \item Operator Algebras (A+)\\
-    \item Euclidean Harmonic Analysis*\\
-    \item Abstract Harmonic Analysis (A+)\\
-    \item Partial Differential Equations
+    \item Banach Spaces (Conway, Lax)\\
+    \item Weak Topologies \& Distribution Theory (Rudin)\\
+    \item Operator Algebras (Kadison \& Ringrose)
 \end{itemize}
 }
+
+%------------------------------------------------
 
 %------------------------------------------------
 
@@ -188,8 +239,23 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Complex Variables (A-)\\
-    \item Modular Forms (A)
+    \item Complex Variables (Ahlfors, Stein \& Sharkarchi Vol. 2)\\
+    \item Modular Forms (Milne, Diamond \& Shurman)\\
+    \item Riemann Surfaces (Gunning)
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\entries
+{HARMONIC ANALYSIS}
+{
+\begin{itemize}
+    \setlength\itemsep{-1em}
+    \item Euclidean Harmonic Analysis (Stein \& Sharkarchi Vol. 1, K\"{o}rner, Stein \& Weiss)\\
+    \item Abstract Harmonic Analysis (Folland, Rudin, Hewit \& Ross)\\
+    \item Partial Differential Equations (Evans)\\
+    \item Geometric Measure Theory \& Fourier Analysis (Mattila: Fourier Anal. \& Hausdorff Dim.)
 \end{itemize}
 }
 
@@ -200,8 +266,9 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Galois Theory (A)\\
-    \item Representation Theory of Lie Algebras (B+)
+    \item Galois Theory (Stewart, Lang: Algebra Chapters 4-6)\\
+    \item Representation Theory of Lie Algebras (Erdmann \& Wildon, Hall, Fulton \& Harris: Part 4)\\
+    \item K Theory (Milnor, Adams)
 \end{itemize}
 }
 
@@ -212,8 +279,9 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Topology (A+)\\
-    \item Algebraic Topology (A+)
+    \item Topology (Munkres)\\
+    \item Algebraic Topology (Hatcher)\\
+    \item Differential Topology (Bott \& Tu, Tu: Diff. Geometry and Characteristic Classes)
 \end{itemize}
 }
 
@@ -222,28 +290,22 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Combinatorial Optimization (A)\\
-    \item Fourier Analysis of Boolean Functions (A+)\\
-    \item Analytic Number Theory*
+    \item Combinatorial Optimization (Korte \& Vygen)\\
+    \item Fourier Analysis of Boolean Functions (O'Donnell)\\
+    \item Analytic Number Theory (Montgomery \& Vaughn Vol. 1)
 \end{itemize}
 }
-
-%------------------------------------------------
-
-\end{entrylist}
-
-%------------------------------------------------
-
-\begin{entrylist}
 
 \entries
 {PROBABILITY THEORY}
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Stochastic Processes (A+)\\
-    \item Multi Armed Bandits (A+)\\
-    \item Brownian Motion and Stochastic Integration
+    \item Stochastic Processes (Lawler)\\
+    \item Machine Learning (Hastie \& Tibshirani)\\
+    \item Reinforcement Learning (Sutton \& Barto, Szepesvari)\\
+    \item Multi Armed Bandits (Szepesvari \& Lattimore)\\
+    \item Brownian Motion and Stochastic Integration (Rogers \& Williams Vol. 1)
 \end{itemize}
 }
 
@@ -254,7 +316,9 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Riemannian Geometry*
+    \item Riemannian Geometry (Lee: Riemannannian Man. and an Intro. to Curvature)\\
+    \item Algebraic Geometry (Fulton: Algebraic Curves, Harris: A First Course)\\
+    \item Projective Geometry (Richter-Gebert)
 \end{itemize}
 }
 
@@ -265,9 +329,11 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 {
 \begin{itemize}
     \setlength\itemsep{-1em}
-    \item Mathematical Logic (B+)\\
-    \item Nonstandard Logical Systems (A)\\
-    \item Formal Language Theory (A)
+    \item Mathematical Logic (Mendelson)\\
+    \item Nonstandard Logical Systems (Bimbo: Proof Theory, Bimbo: Generalized Galois Logics)\\
+    \item Algorithms (Cormer \& Leiserson \& Rivest \& Stein)\\
+    \item Non Procedural Models of Computation (Hindley \& Selden)\\
+    \item Computability Theory (Sipser, Arora \& Barak)
 \end{itemize}
 }
 
@@ -275,10 +341,18 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 
 \end{entrylist}
 
-\pagebreak[2]
-\subsection{Relevant Work \& Experience}
+\pagebreak[4]
+\subsection{Research Projects}
 
 \begin{entrylist}
+
+\entry
+{2017-2019}
+{UNIVERSITY OF BRITISH COLUMBIA}
+{Vancouver, Canada}
+{\emph{Masters Research Student} \\
+Worked with methods of geometric measure theory with Malabika Pramanik and Joshua Zahl in the harmonic analysis group at the University of British Columbia. Here we came up with novel techniques for constructing high dimensional fractals avoiding patterns. By employing a Cantor set type construction method, we were able to reduce the problem of avoiding patterns to the discrete problem of finding certain specialized independent sets in hypergraphs.
+}
 
 \entry
 {2017}
@@ -288,24 +362,24 @@ a 15 minute talk introducing the game of Sokoban, its combinatorial issues, and 
 Worked with combinatorial optimization researcher Zachary Friggstadt to come up with novel techniques for approximation algorithms to variants of the capacitated vehicle routing problem. We used Lagrangian preserving approximations for linear programming relaxations of the problem to obtain solutions to vehicle routing problems with cardinality requirements.}
 
 \entry
-{2015}
-{UNIVERSITY OF ALBERTA}
+{2014}
+{University of Alberta}
 {Edmonton, Alberta}
-{\emph{`Tangible Introduction To Computing Science' Teaching Assistant} \\
-Advised students in the honours stream of Computing Science who were taking CMPUT 275, a class which introduced students to basic algorithmics, such as asymptotic analysis, divide and conquer, dynamic programming, and such. Led office hours weekly and marked assignments.}
+{\emph{Natural Language Processing and Cognate Identification} \\
+Worked with the NLP group at the University of Alberta to develop cognate recognition algorithms. Successfully pushed to create a centralized database for storing cognate information, simplifying the learning process. This program was successfully used by linguists at the University of Alberta to understand the Totonac language group. Garrett Nicolai supervised the project (\href{mailto:Nicolai@ualberta.ca}{Nicolai@ualberta.ca}).}
+
+\entry
+{2013}
+{University of Alberta}
+{Edmonton, Alberta}
+{\emph{Reinforcement Learning GAMES group} \\
+Implemented efficient abstraction algorithms to create a Sokoban solver for the RLAI group at the University of Alberta, under mentor Harm Van Seijen (\href{mailto:Harm.Van.Seijen@gmail.com}{Harm.Van.Seijen@gmail.com}).}
 
 %------------------------------------------------
 
-\entry
-{2013-Now\ \ \ \ \ }
-{Competitive Programming club}
-{}
-{\emph{Competitor} \\
-Strong Competitor in Competitive Programming, which presses competitors to find fast solutions to combinatorial problems. Won the Microsoft 2014 Coding for Cash competition, placed 4th in the Alberta Collegiate programming contest in 2014 and 2015. Coached by Zachary Friggstadt (\href{mailto:zacharyf@ualberta.ca}{zacharyf@ualberta.ca}), ACM world finalist.}
-
 \end{entrylist}
 
-\pagebreak[4]
+%\pagebreak[4]
 \subsection{Summer Internships}
 
 \begin{entrylist}
@@ -328,44 +402,87 @@ Developed algorithms for the mobile section of the Microsoft fraud detection tea
 {\emph{Universal Store Spell Correction} \\
 Developed algorithms for data linkage. Utilizing various data-cleansing methods together with the Azure and Bing data-analysis packages, cleansed Microsoft's business partner database, removing redundant info, reducing database entries by 20\%. My manager for this project was Aman Kansal (\href{mailto:Kansal@microsoft.com}{Kansal@microsoft.com}). I also worked off-hours with a group of interns to send robot adventurers around the world (\href{http://www.projectatlas.ms/}{http://www.projectatlas.ms/}), and organized weekly talk sessions!}
 
-%------------------------------------------------
+\end{entrylist}
+
+\pagebreak[4]
+
+\subsection{Teaching Assistantships}
+
+\begin{entrylist}
 
 \entry
-{2014}
-{University of Alberta}
-{Edmonton, Alberta}
-{\emph{Natural Language Processing and Cognate Identification} \\
-Worked with the NLP group at the University of Alberta to develop cognate recognition algorithms. Successfully pushed to create a centralized database for storing cognate information, simplifying the learning process. This program was successfully used by linguists at the University of Alberta to understand the Totonac language group. Garrett Nicolai supervised the project (\href{mailto:Nicolai@ualberta.ca}{Nicolai@ualberta.ca}).}
-
-%------------------------------------------------
+{2018}
+{UNVERSITY OF BRITISH COLUMBIA}
+{Vancouver, Canada}
+{\emph{`Introduction to Probability' Teaching Assistant} \\
+Lead office hours and marked assignments on a first year course in probability.
+}
 
 \entry
-{2013}
-{University of Alberta}
-{Edmonton, Alberta}
-{\emph{Reinforcement Learning GAMES group} \\
-Implemented efficient abstraction algorithms to create a Sokoban solver for the RLAI group at the University of Alberta, under mentor Harm Van Seijen (\href{mailto:Harm.Van.Seijen@gmail.com}{Harm.Van.Seijen@gmail.com}).}
+{2018}
+{UNIVERSITY OF BRITISH COLUMBIA}
+{Vancouver, Canada}
+{\emph{`Introduction to Discrete Mathematics' Teaching Assitant} \\
+Advised students while leading office hours and marking assigments on basic combinatorics, including basic counting methods, asymptotics, graph theory, and generating function techniques.}
 
-%------------------------------------------------
+\entry
+{2017}
+{UNIVERSITY OF BRITISH COLUMBIA}
+{Vancouver, Canada}
+{\emph{Teaching Assitant to Two Calculus Courses} \\
+Lead Workshops helping and testing students on the basic concepts of first semester calculus. Helped marked weekly assignments, midterms, and finals.
+}
+
+\entry
+{2015}
+{UNIVERSITY OF ALBERTA}
+{Edmonton, Alberta}
+{\emph{`Tangible Introduction To Computing Science' Teaching Assistant} \\
+Advised students in the honours stream of Computing Science who were taking CMPUT 275, a class which introduced students to basic algorithmics, such as asymptotic analysis, divide and conquer, dynamic programming, and such. Led office hours weekly and marked assignments.}
 
 \end{entrylist}
 
-\newpage
+%\begin{entrylist}
+
+%------------------------------------------------
+
+%\entry
+%{2013-2017\ \ \ \ \ }
+%{Competitive Programming club}
+%{}
+%{\emph{Competitor} \\
+%Strong Competitor in Competitive Programming, which presses competitors to find fast solutions to combinatorial problems. Won the Microsoft 2014 Coding for Cash competition, placed 4th in the Alberta Collegiate programming contest in 2014 and 2015. Coached by Zachary Friggstadt (\href{mailto:zacharyf@ualberta.ca}{zacharyf@ualberta.ca}), ACM world finalist.}
+
+%------------------------------------------------
+
+%\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\pagebreak[2]
+\pagebreak[4]
 \section{Awards}
 
 \begin{entrylist}
 
 \entry
-{2017}
+{2018}
+{Canada Graduate Scholarship Master's Award}
+{National Science and Engineering Research Council}
+{To help develop research skills and assist in the training of highly qualified personnel by supporting students who demonstrate a high standard of achievement in undergraduate and early graduate studies.}
+
+\entry
+{2017-2018}
 {Faculty of Science Graduate Award}
 {Graduate Support Initiative}
-{}
+{(Two Time Award Winner) In recognition of academic achievement. Offered to support full-time study and/or research leading to a higher degree at The University of British Columbia}
+
+\entry
+{2017}
+{Dean's Silver Medal in Science}
+{University of Alberta}
+{To convocating students with superior academic achievement enrolled in an Honors program in the Faculty of Science at the University of Alberta.}
 
 %%------------------------------------------------
 
@@ -373,7 +490,7 @@ Implemented efficient abstraction algorithms to create a Sokoban solver for the 
 {2017}
 {NSERC Undergraduate Student Research Award}
 {Alberta Scholarships}
-{To Nurture the interest and fully develop potential for a research career in the natural sciences and engineering. Recieved twice, both in the spring and summer, but only accepted in the summer.}
+{(Awarded Twice in 2017, Accepted Once) To nurture the interest and fully develop potential for a research career in the natural sciences and engineering. Recieved twice, both in the spring and summer, but only accepted in the summer.}
 
 \entry
 {2014-2016}
@@ -429,7 +546,7 @@ Implemented efficient abstraction algorithms to create a Sokoban solver for the 
 %------------------------------------------------
 
 \entry
-{2017-Present\ \ \ \ \ \ \ }
+{2017-2019\ \ \ \ \ \ \ }
 {Masters {\normalfont in Mathematics}}
 {The University of British Columbia}
 
