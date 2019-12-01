@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cv-friggeri-x 1.0 (01/01/2016)
+% XeLaTeX Template
+%
+% Based on:
+% Friggeri Resume/CV
+% Version 1.2 (3/5/15)
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+% 
+% Modified by:
+% Nadorrano
+% https://github.com/Nadorrano/cv-friggeri-x
+%
+% License:
+% MIT (https://opensource.org/licenses/MIT)
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography,
+% if used, needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{cv-friggeri}
+% Add `a4paper` to set a4 paper size
+% Add `nocolors` to remove colors from the document
+% Add `lightheader` to change the dark background of the header to white
+
+\usepackage{marvosym} % needed to print glyphs for email, cell phone etc.
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{jacob}{denson}{Mathematician} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{Research Interests}
+Harmonic Analysis, Geometric Measure Theory, Additive Combinatorics
+~
+\section{Contact Information}
+\href{mailto:denson@math.ubc.ca}{denson@math.ubc.ca}
+\href{https://github.com/jdjake}{{\bf Github Profile}: jdjake}
+\href{http://stackoverflow.com/users/2601483/jacob-denson}{{\bf Stack Overflow:} jacob-denson}
+\href{https://jdjake.github.io/}{{\bf Website:} https://jdjake.github.io/}
+~
+\section{Education}
+{\bf 2017-Present}
+Masters in Mathematics at the University of British Columbia (Thesis: Cartesian Products Avoiding Patterns).
+{\bf 2013-2017}
+Bachelors in Computing Science at the University of Alberta.
+%~
+%\section{languages}
+%english mother tongue
+%spanish \& italian fluency
+%\section{programming}
+%{\color{red} $\varheartsuit$} \LaTeX, JavaScript
+%Python, C++, PHP
+%CSS3 \& HTML5
+%~
+%\section{skills}
+%Machine Learning: \hspace{5mm}\null
+%\grade{4.5} 
+%Optimization:     \hspace{5mm}\null  
+%\grade{4}
+%Computer Vision:  \hspace{5mm}\null
+%\grade{3}
+%Text Mining:      \hspace{5mm}\null
+%\grade{2.5}
+\section{Languages}
+English, Elementary Mandarin, Python, Perl, C++, C, C\#, Matlab, HTML, Javascript, Latex
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\entry
+{2018-Now}
+{Large Sets Avoiding Rough Patterns}
+{}
+{\emph{Collaboration with Dr. Malabika Pramanik and Dr. Joshua Zahl.} In this project, we hope to find subsets of Euclidean space with large fractal dimension avoiding particular point configurations, which might be described as having a `rough' character. In April, we submitted a paper constructing configuration avoiding sets with large Hausdorff dimension entitled \href{https://github.com/jdjake/Notes/raw/master/Research/HausdorffDimension/FinalFractalsAvoidingFractalSetsPaper.pdf}{Large Sets Avoiding Rough Patterns}. We also have results which improve the Hausdorff dimension we study for `low rank' configurations, as well as a result obtaining Salem configuration-avoiding sets. We are currently preparing papers describing these new results.}
+
+%------------------------------------------------
+
+\entry
+{2017-Now}
+{Lagrangian Preserving Approximation for Vehicle Routing}
+{}
+{\emph{Collaboration with Dr. Zachary Friggstad}. Worked with combinatorial optimization researcher Zachary Friggstad using the Lagrangian preserving approximation technique to obtain novel approximation algorithms for variants of the vehicle routing problem. Our work is detailed in notes linked \href{https://github.com/jdjake/Notes/raw/master/Research/VehicleRouting/VehicleRouting.pdf}{here}. We plan to organize our thoughts into a paper in the new year.}
+
+%-------------------------------------------------
+
+\entry
+{2015-2016}
+{Universal Store Record Linkage}
+{}
+{\emph{Collaboration with Dr. Aman Kansal and Ram Chandrasekaran}. Worked as an intern developing methods for machine learning projects at Microsoft's Universal Store department in Redmond, Washington. My main responsibility was reading articles and white papers on the record linkage problem, and developing the ideas established in those papers into software now used to manage the Microsoft Universal Store's customer marketplace, which removed redundant information in the data, which was 20\% of the entire database.}
+
+%-------------------------------------------------
+
+\entry
+{2014}
+{Cognate Identification}
+{}
+{\emph{Collaboration with Garret Nicolai and Dr. Greg Kondrak}. Worked with the NLP group at the University of Alberta to develop cognate recognition algorithms. Successfully pushed to create a centralized database for storing cognate information, simplifying the learning process. This program was successfully used by linguists at the University of Alberta to understand the Totonac language group. Garrett Nicolai supervised the project (Nicolai@ualberta.ca).}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cite{largesetsroughpatterns}
+\cite{notesfromthemargin}
+
+%\printbibsection{article}{Articles} % Print all articles from the bibliography
+
+%\printbibsection{book}{books} % Print all books from the bibliography
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+%\end{refsection}
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+%\end{refsection}
+
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+% CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Conference Presentations}
+
+\begin{entrylist}
+
+\entry
+{2018-2019}
+{Fractals Avoiding Fractal Sets}
+{}
+{\emph{Presented at}:
+%
+\begin{itemize}
+	\item \emph{The 2018 Mid-Atlantic Analysis Meeting}.
+	\item \emph{The 2018 CMS Winter Meeting}.
+	\item \emph{The 2019 Geometric and Harmonic Analysis (GAHA) Conference}.
+	\item \emph{Poster at the 2019 February Fourier Talks. Awarded Prize for 2nd Best Poster out of 19 participants}.
+	\item \emph{Poster at the 2019 Madison Lectures in Fourier Analysis}.
+\end{itemize}
+%
+A talk discussing my work with Dr. Malabika Pramanik and Dr. Joshua Zahl on constructing high dimensional sets avoiding configurations. I emphasized the idea behind the discretization of a problem when working a single scale, as well as the phrasing of the discrete problem in terms of constructing independant sets in a hypergraph.}
+
+\entry
+{2016}
+{Molecular Gases and the Natural Numbers}
+{}
+{\emph{Presented at the Canadian Undergraduate Mathematics Conference}. An expository talk introducing ergodic theory to undergraduate students, emphasizing its relation to a variety of problem in mathematics, especially number theory.}
+
+\end{entrylist}
+
+\section{Miscellaneous Talks}
+
+\emph{Notes for my Talks can be found at my website: \href{https://jdjake.github.io}{https://jdjake.github.io}.}
+
+\begin{entrylist}
+
+\entry
+{2019}
+{Incidence Theorems over Field of Arbitrary Characteristic}
+{Math 616A Class}
+{}
+
+\entry
+{2018}
+{Hodge Theory: Harmonic Analysis in Topology}
+{Math 529 Class}
+{}
+
+\entry
+{2018}
+{Theta Functions}
+{Math 600D Class}
+{}
+
+\entry
+{2018}
+{Radon Transforms and Exceptional Projections}
+{Math 542 Class}
+{}
+
+\entry
+{2017}
+{Proofs in Three Bits or Less}
+{UBC Graduate Seminar}
+{}
+
+\entry
+{2016}
+{Why Physicists Care About the Fourier-Stieltjes Transform}
+{Math 642 Class}
+{}
+
+\entry
+{2016}
+{A Brief Respite in Abelian Harmonic Analysis}
+{Math 642 Class}
+{}
+
+\entry
+{2016}
+{Vector Fields, Hex, and Jordan Curves}
+{Math 530 Class}
+{}
+
+\entry
+{2015}
+{Category Theory for Programmers}
+{University of Alberta Honors Seminar}
+{}
+
+\end{entrylist}
+
+\begin{asidenotit}
+\section{Awards}
+\emph{2019}
+February Fourier Talks Poster Presentation Award (2nd Place)
+\emph{2018}
+NSERC CGSM
+UBC Science Graduate Award
+(2nd Time)
+\emph{2017}
+UBC Science Graduate Award
+U of A Dean's Silver Medal in Science
+NSERC USRA
+(2nd and 3rd Time)
+\emph{2016}
+Jason Lang Scholarship
+(3rd Time)
+\emph{2015}
+Jason Lang Scholarship
+(2nd Time)
+\emph{2014}
+NSERC USRA
+Jason Lang Scholarship
+\emph{2013}
+U of A Academic Excellence Scholarship
+U of A Science Academic Excellence Scholarship
+Alexander Rutherford Achievement Scholarship
+~
+\section{Teaching Assistanships}
+\emph{2019}
+Multivariate Calculus
+Graph Theory
+\emph{2018}
+Introduction to Discrete Mathematics
+Introduction to Probability
+\emph{2017}
+Calculus for Forestry Students
+Calculus for Business Students
+\emph{2015}
+Tangible Introduction to Computer Science Undergraduate TA
+\end{asidenotit}
+
+\end{document}

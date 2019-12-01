@@ -162,17 +162,28 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+  #1&\parbox[t]{15.8cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
   }\\}
+
+\newcommand{\entrymarg}[4]{%
+  #1&\parbox[t]{15.8cm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    #4\vspace{\parsep}%
+  }\\}
+
 \newcommand{\entries}[2]{%
     \parbox[t]{75cm}{
     \textbf{#1}
     #2\vspace{\parsep}%
   }\\}
+
+\newcommand{\vspaces}{\vspace{5mm}}
 
 
 %%%%%%%%%%%%%%
@@ -198,6 +209,34 @@
 }
 
 %%%%%%%%%%%%%%%%
+% Other tweaks %
+%%%%%%%%%%%%%%%%
+
+\RequirePackage[left=2.5cm,top=2cm,right=3.5cm,bottom=2.5cm,nohead,nofoot]{ geometry}
+
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks = false,       
+    linkcolor = red,          
+    citecolor = red,        
+    filecolor = red,      
+    urlcolor = red
+}
+    
+% A fix for \href{}{} colors not working with fontspec
+\makeatletter
+\def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
+\makeatother
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
@@ -209,7 +248,7 @@
 %\DeclareFieldFormat[misc]{title}{#1\par}
 %\DeclareFieldFormat[report]{title}{#1\par}
 
-%\DeclareBibliographyDriver{article}{%
+%\DelcareBibliographyDriver{article}{%
 %  \printfield{title}%
 %  \newblock%
 %  \printnames{author}%
@@ -330,23 +369,3 @@
 %  \sort[direction=descending]{\field{year}}
 %  \sort[direction=descending]{\field{month}}
 %}
-
-
-
-%%%%%%%%%%%%%%%%
-% Other tweaks %
-%%%%%%%%%%%%%%%%
-
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage{hyperref}
-\hypersetup{
-    colorlinks=false,       
-    linkcolor=red,          
-    citecolor=red,        
-    filecolor=red,      
-    urlcolor = red}
-    
-% A fix for \href{}{} colors not working with fontspec
-\makeatletter
-\def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
-\makeatother
