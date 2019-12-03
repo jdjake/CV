@@ -384,9 +384,9 @@
 \hypersetup{
 	hidelinks,
 	colorlinks,
-	linkcolor=red,
-	citecolor=black,
-	filecolor=orange,
+	linkcolor=linkblue,
+	citecolor=linkblue,
+	filecolor=linkblue,
 	urlcolor=linkblue
 }
 
