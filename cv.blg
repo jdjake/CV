@@ -1,0 +1,19 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'cv.blg'
+[169] biber-MSWIN32:340> INFO - === 
+[232] Biber.pm:415> INFO - Reading 'cv.bcf'
+[390] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[409] Biber.pm:4340> INFO - Processing section 0
+[425] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[514] bibtex.pm:1689> INFO - LaTeX decoding ...
+[522] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[554] Utils.pm:395> WARN - legacy month field 'Submitted Dec' in entry 'mscthesis' is not an integer - this will probably not sort properly.
+[560] Utils.pm:395> WARN - legacy month field 'Submitted Apr' in entry 'largesetsroughpatterns' is not an integer - this will probably not sort properly.
+[1040] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'notesfromthemargin' is not an integer - this will probably not sort properly.
+[1056] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1056] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1057] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[1058] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1070] bbl.pm:654> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[1072] bbl.pm:757> INFO - Output to cv.bbl
+[1073] Biber.pm:128> INFO - WARNINGS: 3
