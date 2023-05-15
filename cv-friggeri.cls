@@ -224,7 +224,7 @@
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
 %  \newpage
-  \begin{textblock}{3.6}(1.5, 1.4)
+  \begin{textblock}{3.8}(1.5, 1.4)
   \begin{flushright}
   \obeycr
 }{%
