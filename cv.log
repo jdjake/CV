@@ -534,4 +534,41 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofcurrentchild=\count301
 \tikz@fig@count=\count302
 
-(C:\Users\sirsa\AppData\Local\Programs\MiKTeX\tex/generic/pg
+(C:\Users\sirsa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count303
+\pgfmatrixcurrentcolumn=\count304
+\pgf@matrix@numberofcolumns=\count305
+)
+\tikz@expandcount=\count306
+
+(C:\Users\sirsa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+
+! LaTeX Error: File `parskip.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: X
+
+! Emergency stop.
+<read *> 
+         
+l.124 
+      
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 18299 strings out of 411476
+ 391266 string characters out of 5818380
+ 1842001 words of memory out of 5000000
+ 38308 multiletter control sequences out of 15000+600000
+ 512675 words of font info for 52 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 115i,0n,128p,395b,258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
