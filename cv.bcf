@@ -2360,10 +2360,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">salemsetspaper</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">mscthesis</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">largesetsroughpatterns</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">notesfromthemargin</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">characterizationpaper</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">salemsetspaper</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">mscthesis</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">largesetsroughpatterns</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">notesfromthemargin</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">

@@ -250,7 +250,10 @@
   \printfield{title}%
   \par%
   \newblock%
-  \printnames{author}%
+  \printnames{author}
+  \par
+  \newblock
+  {\small \thefield{url}}
   \par%
   \newblock%
   {%
