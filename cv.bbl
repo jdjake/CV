@@ -62,17 +62,16 @@
       \strng{authornamehash}{e63095f1a47bff1d227c325cc9a3b81e}
       \strng{authorfullhash}{e63095f1a47bff1d227c325cc9a3b81e}
       \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Multipliers of Spherical Harmonics}
-      \field{year}{Submitted 2024}
       \verb{urlraw}
-      \verb TODO
+      \verb In Preparation
       \endverb
       \verb{url}
-      \verb TODO
+      \verb In%20Preparation
       \endverb
     \endentry
     \entry{largesetsroughpatterns}{article}{}

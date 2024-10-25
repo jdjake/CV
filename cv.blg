@@ -1,19 +1,18 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[2] Config.pm:310> INFO - Logfile is 'cv.blg'
-[282] biber-MSWIN64:340> INFO - === 
-[364] Biber.pm:419> INFO - Reading 'cv.bcf'
-[574] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[598] Biber.pm:4419> INFO - Processing section 0
-[627] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[731] bibtex.pm:1713> INFO - LaTeX decoding ...
-[755] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[852] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[852] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[853] Biber.pm:4239> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[853] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[866] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[870] bbl.pm:763> INFO - Output to cv.bbl
-[870] Biber.pm:131> WARN - legacy year field 'Submitted 2024' in entry 'characterizationpaper' is not an integer - this will probably not sort properly.
-[871] Biber.pm:131> WARN - legacy year field 'Submitted 2024' in entry 'salemsetspaper' is not an integer - this will probably not sort properly.
-[871] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Patron\AppData\Local\Temp\biber_tmp_c20t\f4d088b3f9f145b5c3058da33afd57d4_27636.utf8, line 44, warning: 249 characters of junk seen at toplevel
-[871] Biber.pm:133> INFO - WARNINGS: 3
+[1] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'cv.blg'
+[194] biber-MSWIN64:340> INFO - === 
+[245] Biber.pm:419> INFO - Reading 'cv.bcf'
+[388] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[409] Biber.pm:4419> INFO - Processing section 0
+[428] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[491] bibtex.pm:1713> INFO - LaTeX decoding ...
+[506] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[576] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[577] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[577] Biber.pm:4239> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[577] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[590] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[594] bbl.pm:763> INFO - Output to cv.bbl
+[595] Biber.pm:131> WARN - legacy year field 'Submitted 2024' in entry 'salemsetspaper' is not an integer - this will probably not sort properly.
+[595] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Patron\AppData\Local\Temp\biber_tmp_7Phh\f4d088b3f9f145b5c3058da33afd57d4_22852.utf8, line 44, warning: 249 characters of junk seen at toplevel
+[595] Biber.pm:133> INFO - WARNINGS: 2
