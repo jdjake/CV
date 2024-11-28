@@ -36,11 +36,11 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
-\definecolor{green}{HTML}{C2E15F}
+\definecolor{green}{HTML}{80cc2f}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
-\definecolor{red}{HTML}{FB4485}
-\definecolor{blue}{HTML}{6CE0F1}
+\definecolor{red}{HTML}{d60f16}
+\definecolor{blue}{HTML}{34BDD1}
 \definecolor{fblue}{HTML}{3D539E}
 \definecolor{tblue}{HTML}{55ACEE}
 \definecolor{lblue}{HTML}{0077B5}
@@ -127,6 +127,11 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
+        headercolor\or%
+        headercolor\or%
+        headercolor\or%
+        headercolor\or%
+        headercolor\or%
         blue\or%
         red\or%
         orange\or%

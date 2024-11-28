@@ -39,7 +39,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Large {S}alem Sets Avoiding Nonlinear Configurations}
-      \field{year}{Submitted 2024}
+      \field{year}{Submitted For Publication}
       \verb{urlraw}
       \verb https://arxiv.org/abs/2110.09592
       \endverb
@@ -62,12 +62,18 @@
       \strng{authornamehash}{e63095f1a47bff1d227c325cc9a3b81e}
       \strng{authorfullhash}{e63095f1a47bff1d227c325cc9a3b81e}
       \field{extraname}{2}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Multipliers of Spherical Harmonics}
-      \field{year}{In Preparation}
+      \field{title}{Multipliers of Spherical Harmonic Expansions}
+      \field{year}{Submitted For Publication}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2410.23505
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2410.23505
+      \endverb
     \endentry
     \entry{largesetsroughpatterns}{article}{}
       \name{author}{3}{}{%
@@ -131,8 +137,8 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{MSc Thesis (University of British Columbia)}
-      \field{title}{Cartesian Products Avoiding Patterns}
+      \field{journaltitle}{MSc Thesis, University of British Columbia}
+      \field{title}{Cartesian Products Avoiding Patterns (Msc Thesis)}
       \field{year}{2019}
       \verb{urlraw}
       \verb https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0387448
